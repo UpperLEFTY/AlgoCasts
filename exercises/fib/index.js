@@ -8,8 +8,8 @@
 // Example:
 //   fib(4) === 3
 
-// Recursive SOLUTION EXPONENTIAL TIME ALGORITHMS ARENT ACCEPTED IN AN INTERVIEW
-// A Way this can be fixed or improved MEMOIZATION
+// Recursive SOLUTION // EXPONENTIAL TIME ALGORITHMS ARENT ACCEPTED IN AN INTERVIEW
+// A Way this can be fixed or improved is using MEMOIZATION SEE BELOW. 
 function memoize(fn) {
 const cache = {};
   return function(...args) {
