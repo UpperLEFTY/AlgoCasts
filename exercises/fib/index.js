@@ -10,6 +10,7 @@
 
 // Recursive SOLUTION // EXPONENTIAL TIME ALGORITHMS ARENT ACCEPTED IN AN INTERVIEW
 // A Way this can be fixed or improved is using MEMOIZATION SEE BELOW. 
+// By storing the function it made it easier to recall the function calling spread args.
 function memoize(fn) {
 const cache = {};
   return function(...args) {
